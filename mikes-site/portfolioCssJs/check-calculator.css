@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 163, 238), rgba(0, 0, 0, 0.021));
+    text-align: center;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+section{
+    border: 1px black solid;
+    width:50%;
+    margin:0 auto;
+    border-radius:10px;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+h1,
+h3,
+p {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(8, 16, 124);
+    text-shadow: 2px 2px 10px white;
+  
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.inlineDollars {
+    display: inline-flex;
+}
+
+.aboveZero {
+    color: green;
+}
+
+.belowZero {
+    color: red;
+}
+
+input {
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+button{
+    border-radius:5px;
+    width:100px;
+}

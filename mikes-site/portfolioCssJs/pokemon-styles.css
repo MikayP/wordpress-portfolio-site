@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+ 
+
+}
+
+body::after {
+    content: "";
+    background-image: url("https://i.imgur.com/6HBkPOV.jpg");
+    background-size:100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    position: absolute;
+    z-index: -1;   
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+span{
+    height:20px;
+    width:20px;
+    display:inline-block;
+    margin:-2px;
+}
+
+.pikaPixels{
+    height:15px;
+    width:15px;
+
+}
+#bothCharacters .bothDudes{
+text-align: center;
+ }
+
+#bothDudes{
+    margin:525px 0 0 0;
+    display:inline-block;
+  
+}
+#bothPikas{
+    margin:200px 0 0 25px;
+    display:inline-block;
+}
+#bothPikas #pikaOne .inline{
+    margin-top:-3px;
+}
+
+#bothPikas #pikaTwo .inline{
+    margin-top:-3px;
+}
+
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color:red
+}
+
+.white{
+    background-color:white;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.brown{
+    background-color:brown;
+}
+
+/* transition */
+
+#firstImg{
+    
+}
+#secondImg{
+    /* position: absolute; */
+    display:none;
+}
+
+#pikaOne{
+    /* position: absolute; */
+}
+#pikaTwo{
+    /* position: absolute; */
+    display:none;
+}
+
+

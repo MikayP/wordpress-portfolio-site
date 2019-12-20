@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(-45deg, #1147fa, #ff0000);
+    height:100vh;
+}
+
+.grid{
+    width:600px;
+        height:500px;
+    margin:100px auto;
+    background-color:rgba(19, 26, 206, 0.43);
+    padding: 50px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.57);
+}
+
+.grid h1{
+    font-family:sans-serif;
+    background-color: rgba(87, 99, 110, 0.4);
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+#question{
+    font-family: sans-serif;
+    font-size:30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3{
+       background-color: rgba(87, 99, 110, 0.61);
+    width:250px;
+    font-size:20px;
+    color: #fff;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#score{
+    color:#5a6772;
+    text-align: center;
+    font-size:30px;
+}
+
+#progress{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #57636e;
+
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
+    outline:0;
+}

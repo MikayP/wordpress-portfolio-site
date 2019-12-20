@@ -1,0 +1,91 @@
+/*Added class for adding/removing flip*/
+
+.tile.flipped {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/*Card*/
+
+.tile {
+    margin: 50px auto;
+    perspective: 600px;
+    position: relative;
+    height: 100%;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+    width: 30%;
+}
+
+
+.tile-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.tile .tile-front,
+.tile .tile-back {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+
+
+.tile .tile-back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+}
+
+/*Card Styling*/
+
+h1 {
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    margin-top: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+.m_emote {
+    padding-top: 50px;
+    font-size: 4em;
+}
+
+p {
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Bree Serif', serif;
+}
+
+.m_emote,
+p {
+    color: white
+}
+
+.footer {
+    text-align: left;
+    font-size: 22px;
+    color: black;
+}
+
+.card-footer {
+    border-top: solid black 2px;
+}
+
+.tile-front,
+.tile-back {
+    background-color: rgba(54, 54, 255, 0.79);
+}
+
+.card {
+    border: solid 2px black;
+    box-shadow: 2px 2px 3px black;
+}

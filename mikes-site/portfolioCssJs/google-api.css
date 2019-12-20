@@ -1,0 +1,24 @@
+#map {
+    height: 750px;
+    width: 80%;
+    margin:0 auto;
+    border-radius:20px;;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+
+}
+body{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#356aa0+55,356aa0+55,000000+100,356aa0+100 */
+background: #356aa0; /* Old browsers */
+background: -moz-linear-gradient(top, #356aa0 55%, #356aa0 55%, #000000 100%, #356aa0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #356aa0 55%,#356aa0 55%,#000000 100%,#356aa0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #356aa0 55%,#356aa0 55%,#000000 100%,#356aa0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+height:100vh;
+}

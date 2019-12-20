@@ -1,0 +1,186 @@
+.bodyContainer {
+    background-color: #F5F5FA;
+}
+
+body {
+    font-family: 'Hind Guntur', sans-serif;
+
+}
+
+.col-sm {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px rgba(13, 13, 18, 0.04);
+    background-color: white;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.header,
+.btn {
+    background-color: rgb(37, 69, 87);
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+}
+
+.btn {
+    margin-top: 25px
+}
+
+.nav-link {
+    color: black;
+}
+
+.logo {
+    height: 55px;
+    margin: 10px;
+}
+
+.logoText {
+    color: #66BEF0;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-size: 2.2em;
+}
+
+.logo span {
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.headerBG {
+    background-color: #7793A3;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    margin-bottom: 0px;
+}
+
+.headerInput {
+    border-radius: 5px;
+    width: 250px;
+}
+
+
+.nav-bar {
+    color: white;
+}
+
+/* Announcement Col */
+.map {
+    width: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.announceText {
+    margin: 0;
+    font-size: 12px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    ;
+    box-shadow: none;
+    margin-top: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+.card-img-top,
+.map {
+    height: 250px;
+}
+
+.announceDiv {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #888888ce;
+}
+
+/* profile col */
+.profileImg {
+    height: 135px;
+    width: 135px;
+}
+
+.profileImg,
+.candidateImg {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+
+    border: solid 1px #888888ce;
+    box-shadow: 0 0 10px #888888ce;
+}
+
+#timer {
+    width: 100%;
+}
+
+/* candidate col */
+.candidateImg {
+    height: 85px;
+    width: 85px;
+}
+
+.rightTables {
+    border-bottom: solid #888888ce 1px;
+}
+
+.friendImg {
+    height: 80px;
+    border-radius: 50%;
+}
+
+.friendTitle {
+    padding-bottom: 75px;
+
+}
+
+.socialImg {
+    width: 100%;
+    height: 200px;
+}
+
+.left {
+    display: flex;
+    justify-content: start;
+}
+
+.right {
+    right: 0%;
+    position: absolute;
+}
+
+/* page 2 */
+
+.dataBG {
+    background-color: #254557;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.dataImg {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+.text-muted {
+    text-align: center;
+}

@@ -1,0 +1,335 @@
+body,
+html {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.topheader {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.headertext {
+    font-size: 3em;
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+}
+
+.fa.fa-bars {
+    color: white;
+    float: right;
+    font-size: 45px;
+    padding: 15px;
+    margin-top: -15px;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.headertext:hover,
+.navtext:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.collapse {
+    width: 50%;
+}
+
+.navtext {
+    font-family: 'Acme', sans-serif;
+    padding-left: 55px;
+    text-shadow: 2px 2px 5px black;
+    font-size: 35px;
+    color: white;
+}
+
+.bordertext {
+    font-size: 3em;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Acme', sans-serif;
+}
+
+
+
+.since1970 {
+    font-size: 50px;
+    text-align: center;
+    top: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-shadow: 2px 4px 4px #9b6669;
+}
+
+/*backgrounds*/
+
+/*
+.topheader {
+
+}
+*/
+
+.bg1970 {
+    background-color: #000000;
+    height: 250px;
+    width: 100%;
+}
+
+.historybg {
+    background-color: #000000;
+}
+
+.malloysbg {
+    background-color: #000000;
+}
+
+.joinbandbg {
+    background-color: #000000;
+}
+
+.joinbandtext {
+    background-color: #000000;
+}
+
+.mediaimgbg {
+    background-color: #000000;
+}
+
+.mediabg {
+    background-color: #000000;
+}
+
+.contactimgbg {
+    background-color: #000000;
+}
+
+.contactbg {
+    background-color: #000000;
+}
+
+
+/*Parallax*/
+
+.mainImage1,
+.mainImage2,
+.mainImage3,
+.mainImage4,
+.mainImage5,
+.mainImage6 {
+    position: relative;
+    /*    opacity: 0.8;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+
+
+}
+
+.mainImage1,
+.mainImage2,
+.mainImage3,
+.mainImage4,
+.mainImage5,
+.mainImage6 {}
+
+.mainImage1 {
+    background-image: url(Images/lake.jpg);
+    min-height: 100%;
+
+
+}
+
+.mainImage2 {
+    background-image: url(Images/mountain-lake.jpg);
+    min-height: 450px;
+
+}
+
+.mainImage3 {
+    background-image: url(Images/snow-drawing.jpg);
+    min-height: 450px;
+
+}
+
+.mainImage4 {
+    background-image: url(Images/snow-mountains.jpg);
+    min-height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.mainImage5 {
+    background-image: url(Images/sunset.jpg);
+    min-height: 450px;
+    background-size: contain;
+}
+
+.mainImage6 {
+    background-image: url(../images/daisy.jpg);
+    min-height: 450px;
+    background-size: contain;
+}
+
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+/*about*/
+
+.slidePhotos {
+    filter: grayscale(100);
+    width: 252px;
+    max-height: 200px;
+    object-fit: fill;
+    margin: 2px;
+    border: solid white 1px;
+    transition: .5s;
+}
+
+.imagerow {
+    width: 100%;
+}
+
+.slidePhotos:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.aboutP {
+    color: white;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    line-height: 32px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/*Schedule*/
+
+.malloysImg {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+
+.section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.heads {
+    color: #e0dbc2;
+}
+
+h2 {
+    color: #e0dbc2;
+    font-size: 48px;
+}
+
+.malltext {
+    color: #e0dbc2;
+    font-size: 26px;
+}
+
+
+.molloysLink {
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.molloysLink:link {
+    color: rgb(247, 11, 20);
+}
+
+.molloysLink:visited {
+    color: rgb(247, 11, 20);
+}
+
+/* mouse over link */
+
+.molloysLink:hover {
+    color: #e0dbc2;
+    text-decoration: none;
+}
+
+/* selected link */
+
+.molloysLink:active {
+    color: #e0dbc2;
+    text-decoration: none;
+}
+
+/*Join Band*/
+
+.joinband {
+    font-family: 'Acme', sans-serif;
+}
+
+
+/*Media*/
+
+/*Contact*/
+
+.contlist {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-family: 'Acme', sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 5px black;
+}
+
+.listwidth {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formLabel {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 26px;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {}
